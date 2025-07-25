@@ -1,0 +1,19 @@
+    # Terraform state files - These can contain sensitive information!
+    *.tfstate
+    *.tfstate.*
+    .terraform/
+    terraform.tfvars
+    crash.log
+  
+    terraform.tfstate
+    terraform.tfstate.backup
+
+
+    # SSH private keys
+    *.pem
+    id_rsa
+    id_ed25519
+
+    # Local files
+    .DS_Store
+    
