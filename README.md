@@ -25,7 +25,7 @@ This screenshot shows the custom Level 12 alert (ID 100100) successfully firing 
 ### 2. Automated Response: Firewall Block
 This screenshot shows the AWS VPC Network ACL with the new `DENY` rule that was automatically added by the Python script, blocking the attacker's IP.
 
-*(INSERT SCREENSHOT OF YOUR AWS NETWORK ACL SHOWING THE DENY RULE HERE)*
+![Network-ACL blocking the ip](./Images/ACL_Deny.jpg)
 
 ---
 
