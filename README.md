@@ -20,7 +20,7 @@ The entire infrastructure is deployed using Terraform, with Wazuh serving as the
 ### 1. Successful Detection: Brute-Force Alert
 This screenshot shows the custom Level 12 alert (ID 100100) successfully firing in the Wazuh dashboard after the simulated attack.
 
-*(INSERT SCREENSHOT OF YOUR WAZUH DASHBOARD SHOWING THE ALERT HERE)*
+![Wazuh dashboard showing the brute-force alert](./Images/Wazuh_Dashboard.jpg)
 
 ### 2. Automated Response: Firewall Block
 This screenshot shows the AWS VPC Network ACL with the new `DENY` rule that was automatically added by the Python script, blocking the attacker's IP.
